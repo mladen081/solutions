@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css" integrity="sha512-PvcXHD+HohN3F7I/PQV6MQo4/1zeKqH/eN52sfqj2MrV45JwNBf76rGE0SYNfgvOUMQuv98XPx4ZPJLoraQcLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.theme.default.min.css" integrity="sha512-0AyL4lDHb+ytzn5Ygvvie+ThlNNVAoEQ6e/ZjP8Uoi+goYM1Wzb1VS3vga3ORrLXtyxflJ41bm6v1WY8m9gpdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <link rel="stylesheet" href="./css/base/base.css">
 <link rel="stylesheet" href="./css/base/typography.css">
 <link rel="stylesheet" href="./css/components/test_section.css">
 <link rel="stylesheet" href="./css/components/navigation.css">
+<link rel="stylesheet" href="./css/components/carousel.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Solutions</title>
 </head>
@@ -52,6 +56,11 @@
 </section>
 
 <section class="test-section-2">
+  <div class="owl-carousel owl-theme">
+    <div class="slide slide-1"></div>
+    <div class="slide slide-2"></div>
+    <div class="slide slide-3"></div>
+  </div>
 </section>
 
 <section class="test-section-3">
@@ -61,5 +70,34 @@
 </section>
 
 <script src="nav-script.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js" integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      responsiveClass: true,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      smartSpeed: 1500,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        480: {
+          items: 1
+        },
+        768: {
+          items: 1
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>

@@ -1,23 +1,17 @@
 
 
 .test-section-1,
-.test-section-2,
 .test-section-3,
 .test-section-4 {
     text-align: center;
-    padding: 3rem 1rem;
-}
-
-.test-section-2 {
-    height: 400px;
-    background-color: #dde6ed;
+    padding: 4rem 0;
 }
 
 .test-section-3 {
     height: 400px;
+    background-color: #dde6ed;
 }
 
 .test-section-4 {
     height: 150px;
-    background-color: #dde6ed;
 }
