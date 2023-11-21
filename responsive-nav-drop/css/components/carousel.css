@@ -46,9 +46,15 @@
     position: absolute;
 }
 
-.slide-1,
-.slide-2,
-.slide-3 {
+.slide-1 {
     background-image: url("../../img/i_01.jpg");
+}
+
+.slide-2 {
+    background-image: url("../../img/i_02.jpg");
+}
+
+.slide-3 {
+    background-image: url("../../img/i_03.jpg");
 }
 
