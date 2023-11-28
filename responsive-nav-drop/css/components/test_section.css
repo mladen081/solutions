@@ -1,17 +1,35 @@
 
 
-.test-section-1,
+.test-section-2,
 .test-section-3,
-.test-section-4 {
+.test-section-4,
+.test-section-5 {
     text-align: center;
     padding: 4rem 0;
 }
 
+.test-section-2 {
+    background-color: #d83838;
+    color: #fff;
+}
+
 .test-section-3 {
     height: 400px;
-    background-color: #dde6ed;
+    background-color: #fff;
+    background-image: url("../../img/about_bg.jpg");
 }
 
 .test-section-4 {
-    height: 150px;
+    color: #fff;
+    background-color: #d83838;
+    background-image: url("../../img/about_1_bg.jpg");
+}
+
+.test-section-4 h2 {
+    color: #000;
+}
+
+.test-section-5 {
+    background-color: #000;
+    color: #fff;
 }
